@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+      <input type="file" multiple class="style_file_frame">
+      <script>
+        var allow_count_image = 2;
+        var images = [];
+        $('.style_file_frame').fileFrame({
+          limit: allow_count_image,
+          files: images
+        });
+      </script>
+  </body>
+</html>
